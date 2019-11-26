@@ -8,7 +8,7 @@ date_default_timezone_set("Asia/Shanghai");
 
 class Contains
 {
-    const TEST_GATEWAY = "http://pre.openapi.fulu.com/api/getway";
+    const TEST_GATEWAY = "https://pre-openapi.fulu.com/api/getway";
 
     const TEST_APP_KEY = "i4esv1l+76l/7NQCL3QudG90Fq+YgVfFGJAWgT+7qO1Bm9o/adG/1iwO2qXsAXNB";
 
@@ -27,4 +27,8 @@ class Contains
     const TEST_GOODS_PRODUCT_NAME = "卡密测试商品";
 
     const TEST_GOODS_TEMPLATE_ID = "e1dac0ea-dc86-4c9d-a778-c9e19203ecb8";
+
+    const TEST_ORDER_DATA_ADD_SUCCESS_PHONE = "15972368779";
+
+    const TEST_ORDER_DATA_ADD_FAILURE_PHONE = "13971553804";
 }

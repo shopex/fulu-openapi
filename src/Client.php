@@ -17,7 +17,7 @@ abstract class Client
     /**
      * @var string
      */
-    const DEFAULT_URI = "http://openapi.fulu.com/api/getway";
+    const DEFAULT_URI = "https://pre-openapi.fulu.com/api/getway";
 
     /**
      * @var string
