@@ -43,7 +43,7 @@ class GoodsTest extends TestCase
     }
 
     public function testFuluGoodsTemplateGet() {
-        $response = $this->user->fuluGoodsTemplateGet(contains::TEST_GOODS_TEMPLATE_ID);
+        $response = $this->goods->fuluGoodsTemplateGet(contains::TEST_GOODS_TEMPLATE_ID);
         $this->assertSame(200, $response->getStatusCode());
         $this->assertSame(true, $response->isSuccess());
         $this->assertSame(contains::TEST_GOODS_TEMPLATE_ID, $response->result("AddressId"));
