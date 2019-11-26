@@ -71,6 +71,7 @@ class FuluOpenApiResponse
     }
 
     /**
+     * @param bool $checkSign
      * @return bool
      */
     public function isSuccess(bool $checkSign = true): bool
@@ -102,7 +103,6 @@ class FuluOpenApiResponse
 
     /**
      * @param string|null $key
-     * @param null $default
      * @return mixed|null
      */
     public function result(string $key = null)
